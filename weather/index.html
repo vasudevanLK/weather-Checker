@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather </title>
+</head>
+<body>
+<div class="video">
+<video autoplay loop muted plays-inline class="background-clip">
+    <source src="weather video.mp4" type="video/mp4">
+</video>
+<div class="container">
+    <div>
+        <h1 class="heading">WEATHER FINDER</h1>
+        <br/>
+        <input type="text" name=""   id="city-input" placeholder="Search City" >
+        <br/>
+       <input   type="button" onclick="searchCity()" value="search" >
+    </div>
+    <div class="result">
+        <h2 id="city-name"> -------- </h2>
+        <div>
+            <h1 id="weather-type">--------</h1>
+        <div>
+            <h3>Temp :<span id="temp" ></span><span>°F</span></h3>
+            <h3>Min-Temp :<span id="min-temp" ></span><span>°F</span></h3>
+            <h3>Max-Temp :<span id="max-temp" ></span><span>°F</span></h3>
+        </div>
+        </div>
+    </div>
+    
+
+</div>
+</div>
+<script src="script.js" ></script>    
+</body>
+</html>
